@@ -30,10 +30,11 @@ Install Nginx and deploy a static webpage on an AWS EC2 using Ansible
 
 9. Create hosts file on ansible-controller
 
-10. Ping hosts to test ssh connectivity: ansible -i hosts all -m ping
+10. Ping hosts to test ssh connectivity
+	ansible -i hosts all -m ping
 
-11. Create playbook ansible-install-nginx-ec2.yml
+12. Create playbook ansible-install-nginx-ec2.yml
 
-12. Run playbook
-  ansible-playbook -i hosts install-nginx-aws.yml (all hosts)
-  ansible-playbook -i hosts -l db install-nginx-aws.yml (specific hosts)
+13. Run playbook
+	ansible-playbook -i hosts install-nginx-aws.yml (all hosts)
+	ansible-playbook -i hosts -l db install-nginx-aws.yml (specific hosts)
