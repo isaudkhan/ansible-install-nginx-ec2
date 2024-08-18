@@ -7,8 +7,8 @@ Install Nginx and deploy a static webpage on an AWS EC2 using Ansible
 2. Download ssh-key ansible-key (RSA, pem)
 
 3. Create aws ec2 instance ansible-host1, ansible-host2
-  Use same ssh-key pair ansible-key
-  Use same security group
+  * Use same ssh-key pair ansible-key
+  * Use same security group
 
 4. Convert ssh-key ansible-key.pem to ansible-key.ppk using puttygen
 
