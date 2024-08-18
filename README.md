@@ -4,9 +4,9 @@ Install Nginx and deploy a static webpage on an AWS EC2 using Ansible
 ### Steps:
 1. Create aws ec2 instance ansible-controller
 
-2. Download ssh-key ansible-key (RSA, pem)
+3. Download ssh-key ansible-key (RSA, pem)
 
-3. Create aws ec2 instance ansible-host1, ansible-host2
+4. Create aws ec2 instance ansible-host1, ansible-host2
 * Use same ssh-key pair ansible-key
 * Use same security group
 
